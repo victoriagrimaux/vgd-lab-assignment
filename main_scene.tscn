@@ -9,7 +9,7 @@
 position = Vector2(2.08165e-12, 2.08165e-12)
 
 [node name="Icon" type="Sprite2D" parent="."]
-position = Vector2(290, 381)
+position = Vector2(508, 366)
 rotation = -3.14159
 scale = Vector2(0.90625, -0.97182)
 texture = ExtResource("1_g4ohf")
@@ -28,9 +28,9 @@ scale = Vector2(0.954044, 2.1875)
 texture = ExtResource("3_rmh07")
 
 [node name="Fall Guy" parent="." instance=ExtResource("4_qjwqd")]
-position = Vector2(505, 346)
+position = Vector2(144, 331)
 scale = Vector2(0.954044, 2.1875)
 
 [node name="Fall Guy2" parent="." instance=ExtResource("4_qjwqd")]
-position = Vector2(772, 362)
+position = Vector2(787, 354)
 scale = Vector2(0.954044, 2.1875)
