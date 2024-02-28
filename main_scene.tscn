@@ -1,0 +1,36 @@
+[gd_scene load_steps=5 format=3 uid="uid://byrqrhrqnhv2o"]
+
+[ext_resource type="Texture2D" uid="uid://cayl7qjlwaybv" path="res://icon.svg" id="1_g4ohf"]
+[ext_resource type="Texture2D" uid="uid://dt1atybvu7o13" path="res://Fall (32x32).png" id="2_ds1a2"]
+[ext_resource type="Texture2D" uid="uid://1g5of0dj0vjb" path="res://Melon.png" id="3_rmh07"]
+[ext_resource type="PackedScene" uid="uid://stbrf30vj2w4" path="res://Fall Guy.tscn" id="4_qjwqd"]
+
+[node name="Main Scene" type="Node2D"]
+position = Vector2(2.08165e-12, 2.08165e-12)
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(290, 381)
+rotation = -3.14159
+scale = Vector2(0.90625, -0.97182)
+texture = ExtResource("1_g4ohf")
+
+[node name="Frog Man" type="Sprite2D" parent="."]
+visible = false
+position = Vector2(463, 327)
+scale = Vector2(3.14062, 2.35938)
+texture = ExtResource("2_ds1a2")
+
+[node name="Forest" type="Node2D" parent="."]
+
+[node name="Melon" type="Sprite2D" parent="Forest"]
+position = Vector2(519, 74)
+scale = Vector2(0.954044, 2.1875)
+texture = ExtResource("3_rmh07")
+
+[node name="Fall Guy" parent="." instance=ExtResource("4_qjwqd")]
+position = Vector2(505, 346)
+scale = Vector2(0.954044, 2.1875)
+
+[node name="Fall Guy2" parent="." instance=ExtResource("4_qjwqd")]
+position = Vector2(772, 362)
+scale = Vector2(0.954044, 2.1875)
