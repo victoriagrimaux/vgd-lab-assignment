@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://dhmhr372454ef"]
+
+[ext_resource type="Texture2D" path="res://icon.svg" id="1_g4ohf"]
+[ext_resource type="Texture2D" path="res://Fall (32x32).png" id="2_ds1a2"]
+[ext_resource type="Texture2D" path="res://Melon.png" id="3_rmh07"]
+
+[node name="Main Scene" type="Node2D"]
+position = Vector2(2.08165e-12, 2.08165e-12)
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(-39, 66)
+rotation = -3.14159
+scale = Vector2(0.90625, -0.97182)
+texture = ExtResource("1_g4ohf")
+
+[node name="Frog Man" type="Sprite2D" parent="."]
+position = Vector2(-376, -63)
+scale = Vector2(3.14062, 2.35938)
+texture = ExtResource("2_ds1a2")
+offset = Vector2(-12.0995, -0.423843)
+
+[node name="Forest" type="Node2D" parent="."]
+
+[node name="Melon" type="Sprite2D" parent="Forest"]
+position = Vector2(-406, -171)
+scale = Vector2(0.954044, 2.1875)
+texture = ExtResource("3_rmh07")
+offset = Vector2(504.17, 29.2572)

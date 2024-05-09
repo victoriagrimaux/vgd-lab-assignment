@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=3 uid="uid://cxx72n3ngnf55"]
+
+[ext_resource type="Texture2D" uid="uid://m2dcsjxhtf2d" path="res://Fall (32x32).png" id="1_pphns"]
+[ext_resource type="Script" path="res://Player.gd" id="2_wag35"]
+[ext_resource type="Texture2D" uid="uid://drlb8sph1aaho" path="res://360_F_86970996_f1tsT2OpheAWVbRukm1A9bcihVy5lGZG.jpg" id="3_ds1wn"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(210, 166)
+scale = Vector2(3.48438, 3.10156)
+texture = ExtResource("1_pphns")
+script = ExtResource("2_wag35")
+speed = 1.0
+
+[node name="Player2" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(360, 160)
+scale = Vector2(3.48438, 3.10156)
+texture = ExtResource("1_pphns")
+script = ExtResource("2_wag35")
+speed = 8.0
+
+[node name="Field" type="Sprite2D" parent="."]
+self_modulate = Color(0.984314, 0.988235, 0.992157, 0.309804)
+position = Vector2(1883.12, 997)
+scale = Vector2(4.70644, 6.50556)
+texture = ExtResource("3_ds1wn")
